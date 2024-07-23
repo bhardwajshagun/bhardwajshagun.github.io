@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shagun Bhardwaj</title>
+
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="css/font-awesome/css/all.css">
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Asap&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300&display=swap" rel="stylesheet">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Tab Icon -->
+        <link rel="icon" href="img/icon.png">
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="menu"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#res" class="nav__link">Resume</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                <strong>Shagun Bhardwaj</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">
+                Software Engineer<br>
+                <a href="mailto:shagunbhardwaj14@gmail.com">shagunbhardwaj14@gmail.com</a><br>
+                <a href="tel:513-488-5356">513-488-5356</a><br>
+                <a class="social-list__link" href="https://github.com/bhardwajshagun" target="_blank">
+                    </div>GitHub <i class="fab fa-github-square"></i>
+                </a>
+            </p>
+            <img src="img/headshot.jpg" class="intro__img">
+        </section>
+
+        <!-- Resume -->
+        <section class="resume" id="res">
+            <h2 class="section__title section__title--resume">Resume</h2>
+            <h5 class="section__subtitle section__subtitle--resume"><u>Professional Experience</u></h5>
+            <div class="jobs">
+                <div class="job">
+                    <h3 class="headings">Addgene</h3> <h4 class="job--title">Software Engineer III | Jan 2020 - present</h4>
+                    <p class="job--description">
+                        <ul>
+                            <li>Lead developer for gene sequence assembly pipeline to sequence using Java, Groovy, Nextflow, and AWS (S3, EC2, ECR)</li>
+                            <ul>
+                                <li>Sequenced over 300,000 plasmids across multiple genome assemblers, reducing processing time by 54%</li>
+                            </ul>
+                            <li>Implemented key features and fixed bugs in large Python and Django repository that contains main website and internal Laboratory Information Management System (LIMS)</li>
+                            <li>Created application to automatically generate genome sequence maps for deposited materials and stored map data in AWS S3</li>
+                            <ul>
+                                <li>Eliminated need to regenerate sequence maps frequently and cut webpage load time by 82%</li>
+                            </ul>
+                            <li>Optimized search time by 20% through indexing, rewriting Django database queries to efficiently join, and using stored procedures</li>
+                            <li>Developed scheduled data pipelines using Celery to extract and transform data from external APIs and load data into BigQuery</li>
+                            <ul>
+                                <li>Automated pipelines eliminated need for manual data processing by QC team, reducing time spent from 10+ hours/week to 0</li>
+                                <li>Transformed millions of records of raw XML and JSON data into processed output designed for efficient usage</li>
+                            </ul>
+                            <li>Designed and implemented new data models to update MySQL database schema to handle new types of genetic materials</li>
+                            <ul>
+                                <li>Configured database migrations on production and ensured operations were successful with no application downtime</li>
+                            </ul>
+                            <li>Built REST APIs to allow consumers to send genomic data and immediately process and display biological markers on datahub</li>
+                            <li>Developed Docker containerized gene quality control and analysis tools used in multiple applications deployed using Kubernetes</li>
+                            <li>Created and maintained automated unittest, Pytest, and Selenium testing suite to achieve 99+% code coverage across all applications</li>
+                            <li>Created data reports and visualizations using different methods involving Python, Django, pandas, AWS, BigQuery, and Jupyter for other Addgene teams to use for company decision making, data analysis, conferences, and reports</li>
+                            <li>Worked on an Agile Scrum team using sprints, helped prioritize and scope feature requests and bug fixes, and reviewed PRs</li>
+                            <li>Established coding and documentation standards to improve code quality and knowledge sharing</li>
+                            <li>Supervised, interviewed, and trained new co-ops and interns and oversaw their final capstone projects</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <h5 class="section__subtitle section__subtitle--resume"><u>Education</u></h5>
+            <div class="education">
+                <div class="school">
+                    <h3 class="headings">Northeastern University</h3>
+                    <h4 class="education--title">M.S. Computer Science | Dec 2020</h4>
+                    <p class = "education__description">
+                        <strong>Specialization: Data Science</strong><br><br>
+                        <strong>Courses: Algorithms, Database Management Systems, Web Development, Machine Learning, Data Mining, Object-Oriented Design, Foundations of Software Engineering, Mobile App Development</strong>
+                    </p>
+                </div>
+            </div>
+            <h5 class="section__subtitle section__subtitle--resume"><u>Skills</u></h5>
+            <div class="skills">
+                <h3 class="skills--title">Languages</h3>
+                <p>
+                    Python, Java, Groovy, C++, C, JavaScript, TypeScript, HTML, CSS
+                </p>
+                <h3 class="skills--title">Databases</h3>
+                <p>
+                    SQL (MySQL, MariaDB, Postgres, Oracle), NoSQL (MongoDB), BigQuery
+                </p>
+                <h3 class="skills--title">Technologies</h3>
+                <p>
+                    AWS (S3, EC2, ECR), Django, pandas, React, Node.js, Angular, Bootstrap, Spring, jQuery, Nextflow,<br>
+                    Docker, Kubernetes, Git, Unix, Linux, Selenium, Celery, Jenkins, Jira, Confluence, Postman
+                </p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/vidhanb/Portfolio-Website" target="_blank">
+                        Source Code
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script type="text/javascript" src="js/index.js"></script>
+
+    </body>
+</html>
